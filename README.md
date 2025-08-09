@@ -9,8 +9,14 @@ Evaluation: Evaluate the models using metrics like accuracy, precision, recall, 
 Deployment: Implement the trained model in both desktop and web applications.
 
 ## Implementation
-Desktop Application: A Python Tkinter-based application for detecting phishing URLs.
-Web Application: A CGI-based web application for real-time phishing URL detection.
+### Desktop Application
+A Python Tkinter-based application for detecting phishing URLs.
+Hou to use?
+Execute *python tkinter/main.py* in the terminal.
+### Web Application
+A CGI-based web application for real-time phishing URL detection.
+Hou to use?
+Execute *python -m http.server PORT_NUMBER --cgi* in the terminal to run in local machine.
 
-## Demo and Documentation
-A demo video and documentation is included to explain and showcase the functionality and usage of both the desktop and web applications.
+## Project Report
+Project report is included to explain the functionality and usage of both the desktop and web applications.
