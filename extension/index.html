@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./prediction.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="./predict/" method="get">
+        <label for="query">Enter Url : <input type="text" name="query" id="query"></label>
+        <button type="submit" onclick="loadDoc()">Submit</button>
+    </form>
+    <script>
+        function loadDoc(){
+            console.log(document.getElementById("query").value);
+        }
+    </script>
+</body>
+</html>
